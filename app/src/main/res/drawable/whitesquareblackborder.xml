@@ -1,0 +1,8 @@
+<!-- res/drawable/square_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#F5FDFDFD" /> <!-- Change the inner color as needed -->
+    <stroke
+        android:width="0.5dp" />
+    <size android:width="40dp" android:height="40dp" /> <!-- Specify the square size -->
+</shape>

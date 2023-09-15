@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Chat">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="30dp">
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/newmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+        <ImageButton
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/im1">
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="makenna"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 new message"
+            android:textColor="#FFC107"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="-125dp">
+        </TextView>
+
+        <ImageView
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrowforward"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="135dp">
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/newmessage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+        <ImageButton
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/im2">
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="makenna"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="now new messages"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="-122dp">
+        </TextView>
+        <ImageView
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrowforward"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="90dp">
+        </ImageView>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+        <ImageButton
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/im3">
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="makenna"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="now new messages"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="-122dp">
+        </TextView>
+
+
+        <ImageView
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrowforward"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="90dp">
+        </ImageView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="170dp">
+
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/home_navbar"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp">
+
+        </Button>
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/search_navbar"
+            android:layout_marginTop="10dp">
+
+        </Button>
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/plus_navbar"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+        </Button>      <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/chat_navbar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="06dp">
+
+    </Button>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/profile_navbar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="06dp">
+
+        </Button>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

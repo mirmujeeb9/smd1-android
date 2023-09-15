@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Message"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/arrow_back"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp">
+
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Makenna Dias "
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp">
+        </TextView>
+        <ImageView
+            android:id="@+id/voicecall"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/telephone"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="140dp"
+            android:clickable="true"
+            android:onClick="voicecallclick">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/videocall"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/videoicon"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:clickable="true"
+            android:onClick="videocallclick">
+
+        </ImageView>
+
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="2dp"
+        android:background="#D3D3D3"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/circlegallery1">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/greyrectangle"
+            android:text="This is a sample mesgae "
+            android:textSize="18dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="183dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:text="18:56 "
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:text="18:56 "
+            android:layout_marginLeft="150dp"
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+
+            android:background="@drawable/orangerectangle"
+            android:text="This is a sample mesgae "
+            android:textSize="18dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/circlegallery1">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/greyrectangle"
+            android:text="This is a sample mesgae "
+            android:textSize="18dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="183dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:text="18:56 "
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/circlegallery1">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/greyrectangle"
+            android:text="This is a sample mesgae "
+            android:textSize="18dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="183dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:text="18:56 "
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="00dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:text="18:56 "
+            android:layout_marginLeft="150dp"
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+
+            android:background="@drawable/orangerectangle"
+            android:text="This is a sample mesgae "
+            android:textSize="18dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:text="18:56 "
+            android:layout_marginLeft="150dp"
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+
+            android:background="@drawable/orangerectangle"
+            android:text="This is a sample mesgae "
+            android:textSize="18dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/circlegallery1">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/greyrectangle"
+            android:text="... "
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="183dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:text="18:56 "
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_height="2dp"
+        android:background="#D3D3D3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write a reply ..."
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/cameraicon"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/video"
+            android:layout_width="45dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/gallerywhite"
+            android:layout_marginTop="005dp"
+            android:textSize="18dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="-15dp"
+            android:background="@drawable/gallerywhite"
+            android:layout_marginTop="005dp"
+            android:textSize="18dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="38dp"
+            android:text="Send"
+            android:textStyle="bold"
+            android:layout_marginLeft="230dp"
+            android:textColor="#FF5722"
+            android:layout_marginTop="005dp"
+            android:textSize="18dp">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
